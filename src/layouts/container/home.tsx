@@ -8,10 +8,10 @@ import { MenuDefault } from '@/layouts/menu/menu-default'
 import { HomeContext } from './home-context'
 
 export function Home({ children }: any) {
-  const [menu, setMenu] = useState(false)
+  const [menu, setMenu] = useState<boolean | null>(null)
 
   const toggleMenu = () => {
-    setMenu(!menu)
+    setMenu(null || !menu ? true : false)
   }
 
   return (
@@ -22,8 +22,11 @@ export function Home({ children }: any) {
           <NavbarMobile />
           <MenuDefault />
           <main
-            css={tw`w-full flex-grow max-w-screen-lg px-5 mx-auto sm:px-12 md:px-20`}
+            css={tw`w-full flex-grow max-w-screen-lg px-8 pt-40 mx-auto sm:px-12 md:px-20`}
           >
+            <div
+              css={tw`fixed lg:hidden h-32 top-0 left-0 w-full bg-back-primary z-8`}
+            ></div>
             {children}
           </main>
           <footer>Footer</footer>

@@ -45,9 +45,70 @@ const Home: NextPage & { Layout: ComponentType } = () => {
         </div>
         </div>
       </div> */}
+      <div
+        css={tw`flex flex-col-reverse items-center lg:mt-10 lg:flex-row lg:justify-between lg:space-x-20`}
+      >
+        <p
+          css={tw`font-serif text-3xl leading-tight sm:text-4xl sm:leading-tight lg:leading-tight mt-10 lg:mt-0`}
+        >
+          Hi, I&apos;m Rendi, I&apos;m frontend & business intelligent developer
+          with interest in modern web development.
+        </p>
+        <div css={tw`items-center`}>
+          <div
+            css={tw`w-32 h-32 overflow-hidden rounded-full z-7 md:h-40 md:w-40 lg:h-48 lg:w-48`}
+          >
+            <Image
+              src={red}
+              alt="My avatar"
+              width={256}
+              height={256}
+              quality={100}
+              priority={true}
+              placeholder="blur"
+            />
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <h2 tw="text-primary">HI, I AM RENDI, I AM FRONTEND &</h2>
       <h2>BUSINESS INTELLIGENT DEVELOPER</h2>
       <h2>WITH INTEREST IN MODERN</h2>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
       <br />
       <br />
       <br />

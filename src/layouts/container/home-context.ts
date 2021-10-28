@@ -1,11 +1,11 @@
 import { createContext } from 'react'
 
 interface HomeContextInterface {
-  menu: boolean
+  menu: boolean | null
   toggleMenu: () => void
 }
 
 export const HomeContext = createContext<HomeContextInterface>({
-  menu: false,
+  menu: null,
   toggleMenu: () => {},
 })

@@ -1,6 +1,6 @@
 import { useDarkMode } from '@/hooks/useDarkMode'
 import tw from 'twin.macro'
-import { CgSun, CgMoon } from 'react-icons/cg'
+import { FiSun, FiMoon } from 'react-icons/fi'
 
 export const ToggleTheme = () => {
   const [isDark, setIsDark] = useDarkMode()
@@ -10,7 +10,7 @@ export const ToggleTheme = () => {
   return (
     <>
       <button onClick={() => setIsDark(!isDark)}>
-        {isDark ? <CgSun size="20" /> : <CgMoon size="20" />}
+        {isDark ? <FiSun size="20" /> : <FiMoon size="20" />}
       </button>
     </>
   )
