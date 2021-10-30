@@ -1,6 +1,4 @@
-import { useContext, useRef, useState } from 'react'
 import Link from 'next/link'
-import Image from 'next/image'
 import tw from 'twin.macro'
 
 import { ToggleTheme } from '@/components/toggle-theme'

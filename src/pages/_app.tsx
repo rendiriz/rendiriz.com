@@ -2,6 +2,7 @@ import '@fontsource/inter'
 import '@fontsource/prata'
 import '@fontsource/jetbrains-mono'
 import GlobalStyles from '@/styles/global-styles'
+import 'locomotive-scroll/dist/locomotive-scroll.css'
 
 import { ComponentType } from 'react'
 import { NextComponentType } from 'next'

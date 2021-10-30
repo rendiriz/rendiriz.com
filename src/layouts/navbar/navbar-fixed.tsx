@@ -1,11 +1,8 @@
 import Link from 'next/link'
-import Image from 'next/image'
 import tw from 'twin.macro'
 
 import { ToggleTheme } from '@/components/toggle-theme'
 import { ToggleMenu } from '@/components/toggle-menu'
-
-import { CgMenuMotion } from 'react-icons/cg'
 
 export function NavbarFixed() {
   return (

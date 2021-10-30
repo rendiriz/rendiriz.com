@@ -32,7 +32,8 @@ const customStyles = css`
   body {
     background-color: var(--color-back-primary);
     color: var(--color-fore-primary);
-    @apply overflow-x-hidden antialiased;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
   }
 `
 
