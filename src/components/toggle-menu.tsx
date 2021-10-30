@@ -10,7 +10,7 @@ export const ToggleMenu = () => {
 
   return (
     <>
-      <button onClick={toggleMenu}>
+      <button onClick={toggleMenu} className="rr--link">
         {menu ? <CgClose size="20" /> : <CgMenuMotion size="20" />}
       </button>
     </>

@@ -13,6 +13,7 @@ export function NavbarMobile() {
         <div css={tw`flex h-full items-center justify-start`}>
           <Link href="/">
             <a
+              className="rr--link"
               css={tw`flex flex-grow text-xl font-serif tracking-wider cursor-pointer`}
             >
               RENDI <br /> RIZ

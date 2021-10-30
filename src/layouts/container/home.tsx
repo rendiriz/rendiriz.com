@@ -4,6 +4,7 @@ import { gsap } from 'gsap'
 import { ScrollTrigger } from 'gsap/dist/ScrollTrigger'
 
 import useIsomorphicLayoutEffect from '@/effects/useIsomorphicLayoutEffect'
+import { Pointer } from '@/layouts/pointer'
 import { NavbarFixed } from '@/layouts/navbar/navbar-fixed'
 import { NavbarMobile } from '@/layouts/navbar/navbar-mobile'
 import { MenuDefault } from '@/layouts/menu/menu-default'
@@ -34,6 +35,7 @@ export function Home({ children }: any) {
   return (
     <Fragment>
       <HomeContext.Provider value={{ menu, toggleMenu }}>
+        <Pointer />
         <NavbarFixed />
         <MenuDefault />
         <div data-scroll-container>

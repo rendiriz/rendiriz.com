@@ -7,7 +7,7 @@ export const ToggleTheme = () => {
 
   return (
     <>
-      <button onClick={() => setIsDark(!isDark)}>
+      <button onClick={() => setIsDark(!isDark)} className="rr--link">
         {isDark ? <FiSun size="20" /> : <FiMoon size="20" />}
       </button>
     </>

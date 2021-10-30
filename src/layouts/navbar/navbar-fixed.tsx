@@ -68,6 +68,7 @@ export function NavbarFixed() {
           <div ref={logoRef} css={tw`inline-flex`}>
             <Link href="/">
               <a
+                className="rr--link"
                 css={tw`text-xl font-serif text-fore-primary tracking-wider cursor-pointer`}
               >
                 RENDI <br /> RIZ

@@ -153,7 +153,7 @@ export function MenuDefault() {
                       }}
                     >
                       <Link href={route.path}>
-                        <a>
+                        <a className="rr--link">
                           <span
                             css={tw`text-4xl sm:text-5xl lg:text-6xl font-serif`}
                           >
@@ -176,6 +176,7 @@ export function MenuDefault() {
                       }}
                     >
                       <a
+                        className="rr--link"
                         target="_blank"
                         href={route.path}
                         rel="noopener noreferrer"
